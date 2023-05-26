@@ -17,7 +17,7 @@ int main(void)
 		putchar(letter);
 		(letter++);
 	}
-	if (upperletter <= 'Z')
+	while (upperletter <= 'Z')
 	{
 		putchar(upperletter);
 		(upperletter++);
