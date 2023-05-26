@@ -8,14 +8,16 @@
 
 int main(void)
 {
-	char ch = 'a-z';
-	putchar(ch);
+	char letter = 'a';
 
-	a-z = ;
-	if ()
+	while ( letter <= 'z' )
 	{
-		putchar("Last digit of %d is %d and is greater than 5\n", n, LD);
+		putchar(letter);
+		( letter++ )
 	}
+
+	putchat('\n');
+
 	return (0);
 
 }
