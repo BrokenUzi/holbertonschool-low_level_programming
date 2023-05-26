@@ -18,7 +18,7 @@ int main(void)
 		(letter++);
 	}
 	if
-		(LETTER <= 'Z');
+		(LETTER <= 'Z')
 	{
 		putchar(LETTER);
 		(LETTER++);
