@@ -10,18 +10,18 @@ int main(void)
 {
 	char letter = 'a';
 
-	while (letter <= 'z'){
-	if (letter != 'e'){
-	
-	
+	while (letter <= 'z')
+	{
+	if (letter != 'e')
+	{
 		putchar(letter);
-	}	
+	}
 		(letter++);
 	}
-
-	while (letter = 'f'){
-	if (letter != 'q'){
-	
+	while (letter = 'f')
+	{
+	if (letter != 'q')
+	{
 		putchar(letter);
 	}
 		(letter++);
@@ -30,5 +30,4 @@ int main(void)
 	putchar('\n');
 
 	return (0);
-
 }
