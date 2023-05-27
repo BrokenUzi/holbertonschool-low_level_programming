@@ -4,6 +4,7 @@
 * betty style doc for function main goes there
 * Return: always 0
 * a-z is the char for the entire alphabet in lowecase
+* it ignores the letter's e and q
 */
 
 int main(void)
