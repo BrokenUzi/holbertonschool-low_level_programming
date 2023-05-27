@@ -22,12 +22,9 @@ int main(void)
 	{
 	if (letter != 'q')
 	{
-		putchar(letter);
+		putchar(letter, '\n');
 	}
 		(letter++);
 	}
-
-	putchar('\n');
-
 	return (0);
 }
