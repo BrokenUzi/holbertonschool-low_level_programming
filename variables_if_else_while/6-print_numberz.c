@@ -10,11 +10,11 @@
 int main(void)
 {
 	int number = 'n';
-while (number <= '9')
+while (n <= '9')
 {
 	putchar(number);
 	(number++);
 }
 	putchar('n');
-	return(0);
+	return (0);
 }
