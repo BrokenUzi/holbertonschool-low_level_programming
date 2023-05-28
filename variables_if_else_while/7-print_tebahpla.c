@@ -3,7 +3,7 @@
 * main - putchar which is used to write a chracter to the standard
 * betty style doc for function main goes there
 * Return: always 0
-* a-z is the char for the entire alphabet in lowecase
+* z-a is the char for the entire alphabet reversed andin lowecase
 */
 
 int main(void)
@@ -13,7 +13,7 @@ int main(void)
 	while (letter <= 'a')
 	{
 		putchar(letter);
-		(letter++);
+		(letter--);
 	}
 
 	putchar('\n');
