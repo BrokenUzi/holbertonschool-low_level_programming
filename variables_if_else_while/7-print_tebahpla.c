@@ -13,7 +13,7 @@ int main(void)
 	while (letter >= 'a')
 	{
 		putchar(letter);
-		(letter);
+		letter;
 		letter--;
 	}
 
