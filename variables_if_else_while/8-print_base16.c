@@ -13,9 +13,7 @@ int main(void)
 	while (number < 16)
 {
 	if (number < 10)
-	{
 		putchar('0' + number);
-	}
 	else {
 	putchar('a' + number - 10);
 	}
@@ -24,5 +22,5 @@ int main(void)
 
 	putchar('\n');
 
-return 0;
+return (0);
 }
