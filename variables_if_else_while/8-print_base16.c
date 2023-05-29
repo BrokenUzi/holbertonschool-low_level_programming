@@ -13,8 +13,11 @@ int main(void)
 	while (number < 16)
 {
 	if (number < 10)
+	{
 		putchar('0' + number);
-	else {
+	}
+	else
+	{
 	putchar('a' + number - 10);
 	}
 	number++;
