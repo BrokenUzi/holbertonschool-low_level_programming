@@ -6,7 +6,7 @@
 * a-z is the char for the entire alphabet in lowecase
 *
 */
-int main(void)
+int print_alphabet(void)
 {
 	char letter = 'a';
 
