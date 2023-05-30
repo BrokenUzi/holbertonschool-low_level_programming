@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
 * main - putchar which is used to write a chracter to the standard
 * betty style doc for function main goes there
