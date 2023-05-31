@@ -9,16 +9,18 @@
 void times_table(void)
 {
 	int row, column, result;
+	int e;
 
 	for (row = 0; row <= 9; row++)
 	for (column = 0; column <= 9; column++)
 	{
+	e = row * column;
 		result = row * column;
-		if (column < 9 && row < 9)
+		if (e <= 9)
 		{
-		printf("%d,  ", result);
+		printf("%d,  ", e);
 		}
-		else if (column > 9 && row > 9)
+		else if (e > 9)
 		{
 		printf("%2d, ", result);
 		}
