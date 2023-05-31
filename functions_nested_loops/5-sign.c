@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "5-imain.c"
+#include "5-main.c"
 /*
 * print_sign - xplains if # is +/-/0
 *
