@@ -16,7 +16,7 @@ void times_table(void)
 	{
 	e = row * column;
 		result = row * column;
-		if (e < 9)
+		if (column < 9 && e <= 9)
 		{
 		printf("%d,  ", e);
 		}
