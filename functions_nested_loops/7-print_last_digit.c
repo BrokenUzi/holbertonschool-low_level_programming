@@ -3,20 +3,20 @@
 /**
 * print_last_digit - self xplain
 *
-* @n: last digit output (int)
+* @ld: last digit output (int)
 *
 * Return: 0
 *
 */
-int print_last_digit(int n)
+int print_last_digit(int ldo)
 {
-	int last_digit = n % 10;
+	int ld;
 
-	if (last_digit < 0)
+	ld = (ldo % 10);
+	if (ld < 0)
 	{
-	last_digit = last_digit * (-1);
+		ld = (ld * (-1));
 	}
-
-	putchar(last_digit + (0));
-	return (last_digit);
+	_putchar(ld + '0');
+	return (ld);
 }
