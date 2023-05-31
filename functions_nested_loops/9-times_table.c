@@ -15,20 +15,20 @@ void times_table(void)
 	for (column = 0; column <= 9; column++)
 	{
 	e = row * column;
-		if (column >= 0 && column <= 9)
+		if (column >= 0 && column < 9)
 		{
 			if (e > 9)
 			{
 			printf("%d, ", e);
 			}
-			else
+			else if (e < 9)
 			{
 			printf("%d,  ", e);
 			}
 		}
-		if (column == 9)
+		else
 		{
-		printf("\n");
+		printf("%d\n", e);
 		}
 
 	}
