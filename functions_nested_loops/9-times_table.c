@@ -15,7 +15,7 @@ void times_table(void)
 	for (column = 0; column <= 9; column++)
 	{
 	e = row * column;
-		if (column > 0 && column <= 9)
+		if (column >= 0 && column <= 9)
 		{
 			if (e > 9)
 			{
