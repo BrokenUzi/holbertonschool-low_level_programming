@@ -3,7 +3,7 @@
 /**
 * print_last_digit - self xplain
 *
-* @ld: last digit output (int)
+* @ldo: last digit output (int)
 *
 * Return: 0
 *
