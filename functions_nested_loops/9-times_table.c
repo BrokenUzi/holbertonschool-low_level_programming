@@ -19,11 +19,11 @@ void times_table(void)
 		{
 			if (e > 9)
 			{
-			printf("%d, ", e)
+			printf("%d, ", e);
 			}
 			else
 			{
-			printf("%2d,  ", e)
+			printf("%2d,  ", e);
 			}
 		}
 		if (column == 9)
