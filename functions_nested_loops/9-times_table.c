@@ -13,7 +13,7 @@ int i, j;
 	{
 	for (j = 0; j <= 9; j++)
 		{
-		printf("%d x %d = %d\n", i, j, i * j);
+		printf("%2d x %2d = %2d\n", i, j, i * j);
 		}
 	printf("\n");
 	}
