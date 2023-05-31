@@ -22,6 +22,10 @@ void times_table(void)
 		{
 		printf("%2d, ", result);
 		}
-	printf("\n");
+		else if (column == 9)
+		{
+		printf("\n");
+		}
+
 	}
 }
