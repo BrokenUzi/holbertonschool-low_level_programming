@@ -3,7 +3,7 @@
 /**
 * _abs - gets absolute value of the integer
 *
-* n - verification id number
+* @n: verification id number
 *
 * Return: 0
 *
