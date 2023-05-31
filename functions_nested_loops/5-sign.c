@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include "main.h"
-/*
-* print_sign - xplains if # is +/-/0
+/**
+* print_sign - xplains if #'s are +/-/0
 *
-* @n - checks #'s if +/-/0
+* @n: checks #'s if +/-/0
 *
-* Return - alpha 1, if not 0
+* Return: alpha 1, if not 0
 *
 */
 
@@ -14,7 +14,7 @@ int print_sign(int n)
 if (n > 0)
 	{
 	_putchar('+');
-        return (1);
+	return (1);
 	}
 else if (n == 0)
 	{
