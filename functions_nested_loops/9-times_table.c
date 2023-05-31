@@ -23,7 +23,7 @@ void times_table(void)
 			}
 			else
 			{
-			printf("%2d,  ", e);
+			printf("%d,  ", e);
 			}
 		}
 		if (column == 9)
