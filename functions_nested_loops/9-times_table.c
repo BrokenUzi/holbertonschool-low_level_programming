@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
 * times_table - multiples of 9 in a * table
 *
@@ -7,13 +8,19 @@
 */
 void times_table(void)
 {
-int i, j;
+	int row, column, result;
 
-	for (i = 0; i <= 9; i++)
+	for (row = 0; row <= 9; row++)
+	for (column = 0; column <= 9; column++)
 	{
-	for (j = 0; j <= 9; j++)
+		result = row * column;
+		if (column < 9 && row < 9)
 		{
-		printf("%2d x %2d = %2d\n", i, j, i * j);
+		printf("%d,  ", result);
+		}
+		else if (column > 9 && row > 9)
+		{
+		printf("%2d, ", result);
 		}
 	printf("\n");
 	}
