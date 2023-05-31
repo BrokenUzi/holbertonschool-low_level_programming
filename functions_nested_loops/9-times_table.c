@@ -14,13 +14,13 @@ void times_table(void)
 	for (column = 0; column <= 9; column++)
 	{
 		result = row * column;
-		if (column <= 9 && row <= 9)
+		if (column < 9 && row < 9)
 		{
-		printf("%d,  ", result);
+		printf("%d, ", result);
 		}
 		else if (column > 9 && row > 9)
 		{
-		printf("%2d, ", result);
+		printf("%2d,  ", result);
 		}
 		else if (column == 9)
 		{
