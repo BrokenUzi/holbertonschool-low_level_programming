@@ -1,11 +1,11 @@
 #include <stdio.h>
-#include "5-main.c"
+#include "main.h"
 /*
 * print_sign - xplains if # is +/-/0
 *
 * @n - checks #'s if +/-/0
 *
-*Return - alpha 1, if not 0
+* Return - alpha 1, if not 0
 *
 */
 
