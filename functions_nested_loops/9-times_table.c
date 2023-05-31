@@ -8,21 +8,23 @@
 */
 void times_table(void)
 {
-	int row, column, result;
+	int row, column;
 	int e;
 
 	for (row = 0; row <= 9; row++)
 	for (column = 0; column <= 9; column++)
 	{
 	e = row * column;
-		result = row * column;
-		if (e <= 9)
+		if (column > 0 && column <= 9)
 		{
-		printf("%d,  ", e);
-		}
-		else if (e > 9 && column < 9)
-		{
-		printf("%2d, ", result);
+			if (e > 9)
+			{
+			printf("%d, ", e)
+			}
+			else
+			{
+			printf("%2d,  ", e)
+			}
 		}
 		if (column == 9)
 		{
