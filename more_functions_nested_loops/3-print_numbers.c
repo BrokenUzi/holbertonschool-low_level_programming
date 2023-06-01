@@ -3,8 +3,6 @@
 /**
 * print_numbers - prints #'s 0-9
 *
-* @i: is 0
-*
 * Return: 0
 *
 */
