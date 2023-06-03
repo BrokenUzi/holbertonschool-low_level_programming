@@ -3,8 +3,9 @@
 /**
 * print_line draws a straight line
 *
-* Return: non existant bc void
+* @n: how many times "_" will be printed
 *
+* Return: void
 */
 void print_line(int n)
 {
