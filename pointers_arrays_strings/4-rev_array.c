@@ -10,27 +10,15 @@
 *
 * Return: void
 */
-
 void reverse_array(int *a, int n)
+
 {
-	int x = 0;
-	int y;
-	int z;
+	int tmp, index;
 
-	while (x < n && a[n] != '\0')
+	for (index = n - 1; index >= n / 2; index--)
 		{
-		x++;
-
-		x--;
-		}
-
-	for (y = 0; y < x; y++)
-		{
-
-		z = a[x];
-		a[x] = a[y];
-		a[y] = z;
-
-		x--;
+		tmp = a[n - 1 - index];
+		a[n - 1 - index] = a[index];
+		a[index] = tmp;
 		}
 }
