@@ -2,28 +2,20 @@
 #include "main.h"
 
 /**
-* _strncpy - copy string from src to dest to n bytes
+* _strchr - finds char c within string s
 *
-* @dest: self xplain
+* @s: obj. string
 *
-* @src: self xplain
+* @c: char thats searched
 *
-* @n: # of bytes of src 2 b copied
-*
-* Return: dest
+* Return: s beginning at c else 0 if not found
 */
-char *_strncpy(char *dest, char *src, int n)
+
+char *_strchr(char *s, char c)
 {
-	int x;
+	while (*s++)
+		if (*s == c)
+		return (s);
 
-	for (x = 0; x < n && src[x] != '\0'; x++)
-	dest[x] = src[x];
-
-	while (x < n)
-		{
-		dest[x] = '\0';
-		x++;
-		}
-
-	return (dest);
+	return (0);
 }
