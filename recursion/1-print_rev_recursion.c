@@ -18,6 +18,6 @@ void _print_rev_recursion(char *s)
 	}
 	else
 	{
-		_puthcar('\n');
+		_putchar('\n');
 	}
 }
