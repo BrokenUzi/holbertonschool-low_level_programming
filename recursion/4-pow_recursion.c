@@ -4,11 +4,11 @@
 /**
 * _pow_recursion - returns val x raised 2 the y power
 *
-* @x:
+* @x: Obj. variable
 *
-* @y: 
+* @y: Raised to the power of Y
 *
-* Return: 
+* Return: 0
 */
 
 int _pow_recursion(int x, int y)
