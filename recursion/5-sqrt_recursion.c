@@ -19,7 +19,7 @@ int squareRoot(int x, int y)
 	if (x == (y * y))
 		return (y);
 	if (y == (x / 2))
-		return (-1);
+		return (1);
 	return (squareRoot(x, (y + 1)));
 }
 
