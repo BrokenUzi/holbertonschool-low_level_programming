@@ -5,7 +5,7 @@
 *
 * @argc: number of command line arguments
 *
-* @argv: 
+* @argv: represents command line args passed to a program when exe
 *
 * Return: 0
 */
