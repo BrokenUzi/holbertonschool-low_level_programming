@@ -3,10 +3,6 @@
 /**
 * main - prints its name
 *
-* @argc: 
-*
-* @argv: 
-*
 * Return: 0
 */
 
