@@ -4,11 +4,13 @@
 #include <string.h>
 
 /**
+* _strdup - duplicates a string
+*
 * @str - string
 *
+* Return: dup if succesful else null
 *
 *
-* 
 */
 
 char *_strdup(char *str)
