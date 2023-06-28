@@ -6,7 +6,7 @@
 /**
 * _strdup - duplicates a string
 *
-* @str - string
+* @str: pointer string
 *
 * Return: dup if succesful else null
 *
