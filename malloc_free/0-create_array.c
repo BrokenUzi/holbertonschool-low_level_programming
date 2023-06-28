@@ -5,9 +5,9 @@
 /**
 * create_array - creates an array
 *
-* @n: object variable
+* @c: integer
 *
-* @ar: archiver
+* @size: size of reserved space
 *
 * Return: 0
 */
