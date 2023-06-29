@@ -4,7 +4,7 @@
 #include <stdlib.h>
 
 /**
-* str_concat - Connectiates 2 strings
+* str_concat - Write a function that concatenates two strings.
 *
 * @s1: string 1 "Hello"
 *
