@@ -18,7 +18,7 @@ int **alloc_grid(int width, int height)
 
 	uzi = malloc(sizeof(int *) * h);
 
-	if ((w * h) < 1 || uzi == NULL)
+	if ((width * height) < 1 || uzi == NULL)
 		return (NULL);
 
 	for (; y < h; y++)
@@ -36,8 +36,8 @@ int **alloc_grid(int width, int height)
 		}
 	}
 
-	for (; x < w; x++)
-		for (; y < h; y++)
+	for (; x < width; x++)
+		for (; y < height; y++)
 			uzi[x][y] = 0;
 
 	return (uzi);
