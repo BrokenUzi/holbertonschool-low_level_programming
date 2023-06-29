@@ -4,13 +4,13 @@
 #include <stdlib.h>
 
 /**
+* str_concat - 
 *
+* @s1: string 1 "Hello"
 *
+* @s2: String 2 "World"
 *
-*
-*
-*
-*
+* Return: dest
 */
 
 char *str_concat(char *s1, char *s2)
