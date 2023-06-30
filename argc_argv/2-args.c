@@ -10,11 +10,15 @@
 * Return: 0
 */
 
-int main(int argc, char *argv[]);
+int main(int argc, char *argv[])
 {
-	if ()
+	int x = 0;
+
+	if (argc)
 	{
-		printf("",);
+		for (; argv[x]; x++)
+			printf("%s\n", argv[x]);
 	}
-return (0);
+
+	return (0);
 }
