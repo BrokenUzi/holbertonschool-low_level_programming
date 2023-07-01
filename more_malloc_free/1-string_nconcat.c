@@ -4,13 +4,15 @@
 #include <string.h>
 
 /**
+* string_nconcat: concatenates two strings
 *
+* @s1: string 1
 *
+* @s2: string 2
 *
+* @n: # of chars that s2 will print
 *
-*
-*
-*
+* Return: dest
 */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
