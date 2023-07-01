@@ -5,7 +5,7 @@
 /**
 * malloc_checked - allocates memory using malloc
 *
-* @b:
+* @b: input
 *
 * Return: Pointer
 */
@@ -22,4 +22,4 @@ void *malloc_checked(unsigned int b)
 	}
 
 	return (x);
-}	
+}
