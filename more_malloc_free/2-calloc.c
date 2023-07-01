@@ -3,13 +3,13 @@
 #include "main.h"
 
 /**
+* _calloc - allocates memory for an array, using malloc.
 *
+* @nmemb: number memory blocks
 *
+* @size: size of each memory block
 *
-*
-*
-*
-*
+* Return: dest
 */
 
 void *_calloc(unsigned int nmemb, unsigned int size)
