@@ -3,12 +3,13 @@
 #include <stdlib.h>
 
 /**
+* array_range - creates an array of integers
 *
+* @min: min of int
 *
+* @max: max of int
 *
-*
-*
-*
+* Return: aoi (array of integers)
 */
 
 int *array_range(int min, int max)
@@ -29,9 +30,9 @@ int *array_range(int min, int max)
 		return (NULL);
 	}
 
-	for (; x <= (max - min); x++)
+	for (; (x + min) <= max; x++)
 	{
-		x = aoi[x] - min;
+		aoi[x] = x + min;
 	}
 
 return (aoi);
