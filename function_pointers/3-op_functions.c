@@ -44,7 +44,7 @@ int op_mul(int a, int b)
 
 /**
 * op_div - division operation
-* @a: input 1 
+* @a: input 1
 * @b: input 2
 * Return: sum
 */
