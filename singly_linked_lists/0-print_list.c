@@ -1,8 +1,7 @@
 #include "lists.h"
 
 /**
-* size_t - prints all elements of list_t list
-* print_list - all lists are printed
+* print_list - all lists are printed by strings in nodes
 * @h: node head
 * Return: x
 */
