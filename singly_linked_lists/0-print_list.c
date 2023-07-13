@@ -2,7 +2,7 @@
 
 /**
 * size_t - prints all elements of list_t list
-* print_list - prints all lists
+* @print_list: prints all lists
 * @h: node head
 * Return: all elements of list_t
 */
