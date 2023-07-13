@@ -2,9 +2,9 @@
 
 /**
 * size_t - prints all elements of list_t list
-* @print_list: prints all lists
+* print_list - all lists are printed
 * @h: node head
-* Return: all elements of list_t
+* Return: x
 */
 
 size_t print_list(const list_t *h)
