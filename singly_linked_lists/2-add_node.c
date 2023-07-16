@@ -8,11 +8,8 @@
 
 list_t *add_node(list_t **head, const char *str)
 {
-	int x = 0;
-
-	if (new == NULL)
-	{
-		return (0);
-	}
-
-	for (
+	struct node* newNode = (struct node*) malloc(sizeof(struct node));
+	newNode->data  = str;
+	newNode->next = head;
+	head = newNode;
+}
