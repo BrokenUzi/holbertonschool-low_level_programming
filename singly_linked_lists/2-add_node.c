@@ -3,7 +3,7 @@
 #include <string.h>
 
 /**
-* list_t - 
+* add_node - add's a new node at the beginning
 * @head: head of node
 * @str: string
 * Return: Head
