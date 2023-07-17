@@ -3,8 +3,8 @@
 /**
  * add_node_end - create node & add it at the end of our linked list
  * @head: pointer to head of linked list
- * @s1: name of the new node
- * Return: address of new node, NULL if mem alloc fails
+ * @str: name of the new node
+ * Return: address of new node, NULL if memory alloc fails
  */
 
 list_t *add_node_end(list_t **head, const char *str)
