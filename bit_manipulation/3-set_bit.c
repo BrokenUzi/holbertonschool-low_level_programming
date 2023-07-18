@@ -7,12 +7,12 @@
 * Return: 1 if success, -1 if error
 */
 
-int set_bit(unsigned long int *input, unsigned int index)
+int set_bit(unsigned long int *n, unsigned int index)
 {
 	if (index > 63)
 		return (-1);
 
-	*input ^= (1 << index);
+	*n ^= (1 << index);
 
 	return (1);
 }
